@@ -1,0 +1,157 @@
+[
+  {
+    "no": 1,
+    "day": "Monday",
+    "outfit": "Putih abu-abu",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "Biologi",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "SUCI"
+      },
+      {
+        "no": 2,
+        "name": "MATH WAJIB",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "PORMAN"
+      },
+      {
+        "no": 3,
+        "name": "Kimia",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "LIFNO"
+      }
+    ]
+  },
+  {
+    "no": 2,
+    "day": "Tuesday",
+    "outfit": "Putih abu-abu",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "Sejarah",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "WINALNI"
+      },
+      {
+        "no": 2,
+        "name": "Agama",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "AHMAD / RATNA"
+      },
+      {
+        "no": 3,
+        "name": "Seni Budaya",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "SUMI"
+      }
+    ]
+  },
+  {
+    "no": 3,
+    "day": "Wednesday",
+    "outfit": "Pramuka",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "BHS Indo",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "SALBI"
+      },
+      {
+        "no": 2,
+        "name": "Fisika",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "AULIYA"
+      },
+      {
+        "no": 3,
+        "name": "PPKN",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "HASAN"
+      }
+    ]
+  },
+  {
+    "no": 4,
+    "day": "Thursday",
+    "outfit": "Batik",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "PJOK",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "DHANU"
+      },
+      {
+        "no": 2,
+        "name": "Geografi (M)",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "WALDI"
+      },
+      {
+        "no": 3,
+        "name": "English",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "MAYA"
+      }
+    ]
+  },
+  {
+    "no": 5,
+    "day": "Friday",
+    "outfit": "Baju kokoh",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "MTK (M)",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "RAHMAT"
+      },
+      {
+        "no": 2,
+        "name": "BK",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "ZEIN"
+      },
+      {
+        "no": 3,
+        "name": "Fisika",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "AULIYA"
+      }
+    ]
+  },
+  {
+    "no": 6,
+    "day": "Saturday",
+    "status": "libur"
+  },
+  {
+    "no": 7,
+    "day": "Sunday",
+    "status": "libur"
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "no": 1,
+    "day": "Monday",
+    "outfit": "Putih abu-abu",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "Fisika",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "AULIYA"
+      },
+      {
+        "no": 2,
+        "name": "BHS Indo",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "SALBI"
+      },
+      {
+        "no": 3,
+        "name": "PPKN",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "HASAN"
+      }
+    ]
+  },
+  {
+    "no": 2,
+    "day": "Tuesday",
+    "outfit": "Putih abu-abu",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "MTK (M)",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "ROS"
+      },
+      {
+        "no": 2,
+        "name": "Sejarah",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "WINALNI"
+      },
+      {
+        "no": 3,
+        "name": "English",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "MAYA"
+      }
+    ]
+  },
+  {
+    "no": 3,
+    "day": "Wednesday",
+    "outfit": "Pramuka",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "Geografi (M)",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "WALDI"
+      },
+      {
+        "no": 2,
+        "name": "PKWU",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "KRESNA"
+      },
+      {
+        "no": 3,
+        "name": "PJOK",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "DHANU"
+      }
+    ]
+  },
+  {
+    "no": 4,
+    "day": "Thursday",
+    "outfit": "Batik",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "Agama",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "AHMAD / RATNA"
+      },
+      {
+        "no": 2,
+        "name": "MATH WAJIB",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "PORMAN"
+      },
+      {
+        "no": 3,
+        "name": "BHS JPG",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "RATIH BU"
+      }
+    ]
+  },
+  {
+    "no": 5,
+    "day": "Friday",
+    "outfit": "Baju kokoh",
+    "status": "masuk",
+    "subjects": [
+      {
+        "no": 1,
+        "name": "Kimia",
+        "from": "07:00",
+        "to": "08:10",
+        "teacher": "LIFNO"
+      },
+      {
+        "no": 2,
+        "name": "Seni Budaya",
+        "from": "08:40",
+        "to": "09:50",
+        "teacher": "SUMI"
+      },
+      {
+        "no": 3,
+        "name": "Biologi",
+        "from": "10:20",
+        "to": "11:30",
+        "teacher": "BUDI"
+      }
+    ]
+  },
+  {
+    "no": 6,
+    "day": "Saturday",
+    "status": "libur"
+  },
+  {
+    "no": 7,
+    "day": "Sunday",
+    "status": "libur"
+  }
+]
