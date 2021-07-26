@@ -4,5 +4,5 @@ deployment:
  
  tasks:
  
- - export DEPLOYPATH=/home/user/public_html/
+ - export DEPLOYPATH=/home/user/public_html/jadwal
  - /bin/cp * $DEPLOYPATH
