@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'baloo';
+  src:  url('../fonts/BalooChettan2-Regular.ttf') format('truetype'),
+  url('../fonts/BalooChettan2-Bold.ttf') format('truetype'),
+  url('../fonts/BalooChettan2-ExtraBold.ttf') format('truetype'),
+  url('../fonts/BalooChettan2-Medium.ttf') format('truetype'),
+  url('../fonts/BalooChettan2-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src:  url('../fonts/Roboto-Regular.ttf') format('truetype'),
+  url('../fonts/Roboto-Bold.ttf') format('truetype'),
+  url('../fonts/Roboto-Thin.ttf') format('truetype'),
+  url('../fonts/Roboto-Medium.ttf') format('truetype'),
+  url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+* {
+  font-family: 'roboto', arial;
+}
+
+body {
+  background: #f5f3f4
+}
+
+.bg-primary {
+  background-color: #118AB2 !important;
+}
+.text-primary {
+  color: #118AB2 !important;
+}
+
+.text-success {
+  color: #06D6A0 !important
+}
+
+.subjectBox {
+  line-height: 20px !important;
+}
+
+.teacherText, .durationText {
+  font-size: .8em;
+}
+
+.hero-container {
+
+}
+.icon-container{}
+
+.profile-icon {
+  height: 150px;
+  width: 150px;
+  border-radius: 0 0 50% 0;
+  margin-left: -1px;
+  margin-top: -1px;
+  border-right: 7px solid #118AB2;
+  border-bottom: 2px solid #118AB2;
+}
+
+.subjects-box {
+  border-radius: 10px 50px 10px 50px;
+  border-left: 5px solid #118AB2;
+  border-right: 5px solid #118AB2;
+}
