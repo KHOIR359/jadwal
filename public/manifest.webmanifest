@@ -4,8 +4,8 @@
   "description": "Pengingat jadwal terbaik",
   "start_url": "https://jadwal.abdul-khoir.com/",
   "lang": "English",
-  "display": "standalone",
-  "theme_color": "#118AB2",
+  "display": "fullscreen",
+  "theme_color": "#118ab2",
   "background_color": "#f1f1f1",
   "orientation": "portrait",
   "icons": [

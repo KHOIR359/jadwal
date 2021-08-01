@@ -4,7 +4,7 @@
 
 
     @include('components.todaySubjectBox')
-    {{-- @include('components.upcomingSubjectBox') --}}
+    @include('components.upcomingSubjectBox')
 
 
 @endsection

@@ -1,8 +1,29 @@
 const cacheName = 'news-v1';
 const staticAssets = [
-  './js/bootstrap.js',
-  './css/bootstrap.css',
-  './schedule/XII MIPA 1.json'
+  './',
+  './profile',
+  './index.js',
+  './js/bootstrap.min.js',
+  './css/bootstrap.min.css',
+  './images/profile/khoir.png',
+  './css/style.css',
+  './fonts/BalooChettan2-Regular.ttf',
+  './fonts/Roboto-Regular.ttf',
+  './schedule/X MIPA 1.json',
+  './schedule/X MIPA 2.json',
+  './schedule/X IPS 1.json',
+  './schedule/X IPS 2.json',
+  './schedule/X IPS 3.json',
+  './schedule/XI MIPA 1.json',
+  './schedule/XI MIPA 2.json',
+  './schedule/XI IPS 1.json',
+  './schedule/XI IPS 2.json',
+  './schedule/XI IPS 3.json',
+  './schedule/XII MIPA 1.json',
+  './schedule/XII MIPA 2.json',
+  './schedule/XII IPS 1.json',
+  './schedule/XII IPS 2.json',
+  './schedule/XII IPS 3.json',
 ];
 
 self.addEventListener('install', async e => {

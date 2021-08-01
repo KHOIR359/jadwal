@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
   return view('home', ['title' => 'KHOIR APP']);
-});
+})->name('home');
+
+
+Route::get('/profile', function () {
+  return view('profile', ['title' => 'KHOIR APP']);
+})->name('profile');

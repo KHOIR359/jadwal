@@ -1,5 +1,7 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700;800&family=Roboto&display=swap'); */
 @font-face {
   font-family: 'baloo';
+  font-display: swap;
   src:  url('../fonts/BalooChettan2-Regular.ttf') format('truetype'),
   url('../fonts/BalooChettan2-Bold.ttf') format('truetype'),
   url('../fonts/BalooChettan2-ExtraBold.ttf') format('truetype'),
@@ -8,7 +10,8 @@
 }
 
 @font-face {
-  font-family: 'roboto';
+  font-family: 'Roboto';
+  font-display: swap;
   src:  url('../fonts/Roboto-Regular.ttf') format('truetype'),
   url('../fonts/Roboto-Bold.ttf') format('truetype'),
   url('../fonts/Roboto-Thin.ttf') format('truetype'),
@@ -16,50 +19,164 @@
   url('../fonts/Roboto-Light.ttf') format('truetype');
 }
 
+::-webkit-scrollbar{
+  width: 0;
+}
+
 * {
-  font-family: 'roboto', arial;
+  font-family: 'baloo'
+}
+
+.baloo {
+  font-family: 'Roboto' !important;
+}
+
+.text-shadow {
+  text-shadow: 0px 2px #80aaee;
 }
 
 body {
-  background: #f5f3f4
+  background: #118ab2;
+  font-size: 3vw !important;
+  
+}
+@media screen and (max-width: 473px) {
+  body {
+     font-size: 13px !important;
+  }
+  .dayName {
+    font-size: 21px !important;
+  }
+}
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 15px !important;
+  }
+  .dayName {
+    font-size: 30px !important;
+  }
+}
+
+
+.body {
+  background: linear-gradient(0deg, #4350c5, #118ab2);
+  min-height: 100vh;
+max-width: 540px;
+width: 100vw;
+margin: auto;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.285);
+
 }
 
 .bg-primary {
-  background-color: #118AB2 !important;
+  background-color: #118ab2 !important;
 }
+
 .text-primary {
-  color: #118AB2 !important;
+  color: #118ab2 !important;
+}
+
+.bg-danger {
+  background-color: #EF476F !important;
+}
+
+.text-danger {
+  color: #EF476F !important;
 }
 
 .text-success {
   color: #06D6A0 !important
 }
 
+
 .subjectBox {
   line-height: 20px !important;
 }
 
+.upcoming-subjects-box .subjectBox:nth-child(2) {
+  border-top: 2px solid #11aaff54;
+  border-bottom: 2px solid #11aaff54;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.subjectText {
+  font-size: 1.4em !important;
+}
+
 .teacherText, .durationText {
-  font-size: .8em;
+  font-size: .9em;
+  overflow: hidden;
 }
 
 .hero-container {
+  border-radius: 0 10px 50px 0 !important;
+background-color: #f5f3f4;
+border-right: 4px solid #d0d0e0;
 
 }
 .icon-container{}
 
 .profile-icon {
-  height: 150px;
-  width: 150px;
+  height: 80px;
+  width: 110px;
   border-radius: 0 0 50% 0;
   margin-left: -1px;
   margin-top: -1px;
-  border-right: 7px solid #118AB2;
-  border-bottom: 2px solid #118AB2;
+  border-right: 7px solid #118ab2;
+  border-bottom: 2px solid #118ab2;
+  object-fit: cover;
 }
 
 .subjects-box {
   border-radius: 10px 50px 10px 50px;
-  border-left: 5px solid #118AB2;
-  border-right: 5px solid #118AB2;
+  border-left: 5px solid #11aaff;
+  border-right: 5px solid #11aaff;
+  border-top: 1px solid #dde;
+  border-bottom: 1px solid #dde;
 }
+.upcoming-subjects-box {
+  border-radius: 10px 50px 10px 50px;
+  border-left: 5px solid #11aaff;
+  border-right: 5px solid #11aaff;
+  border-top: 1px solid #dde;
+  border-bottom: 1px solid #dde;
+}
+
+.col-6:nth-child(even) .upcoming-subjects-box {
+  border-radius:  50px 10px 50px 10px !important;
+  
+}
+
+
+
+.today-title {
+  font-size: 2.5em;
+}
+
+.upcoming-title {
+  font-size: 2.5em;
+}
+
+div {
+  color: #333
+}
+
+
+
+/* Profile */
+
+.profile-thumbnail > img {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover;
+}
+
+.photo-hint {
+  margin-top: -25px;
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  opacity: .7;
+}
+
